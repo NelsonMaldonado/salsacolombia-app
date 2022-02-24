@@ -83,3 +83,5 @@ become a salsa dancer
 
 This project is under construction :)
 Expected launch day March 1!
+
+This web app is now on git hub!
