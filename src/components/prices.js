@@ -9,8 +9,8 @@ const Prices = () => {
         <DivThree>
           <h2>VIRTUAL OR IN-PERSON PRIVATE LESSONS</h2>
           <h3>1-on-1 LESSONS</h3>
-          <h4>Single Lesson $65</h4>
-          <h4>5 Lesson Package $275</h4>
+          <span>Single Lesson $65</span> <br />
+          <span>5 Lesson Package $275</span>
           <p>
             One-on-One lessons are a great way to have a personal experience in
             a class of your choice. Start training like a pro with Nelly
