@@ -28,7 +28,10 @@ const Header = () => {
           <span>About</span>
         </Link>
       </NavMenu>
-      <Button>PRIVATE CLASSES</Button>
+      <Link to="/prices">
+        <Button>PRIVATE CLASSES</Button>
+      </Link>
+
       <Link to="/">
         <LoginImg src="/rock.JPEG" alt="login_image" />
       </Link>
