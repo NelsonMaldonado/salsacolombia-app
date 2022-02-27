@@ -48,30 +48,26 @@ const TopDiv = styled.div`
     font-weight: bold;
     font-size: 12px;
   }
-  border: 5px solid red;
+
   height: 800px;
   display: flex;
   justify-content: space-between;
 `
 const DivOne = styled.div`
-  border: 5px solid blue;
   width: 60%;
 `
 
 const DivTwo = styled.div`
-  border: 5px solid green;
   width: 35%;
   margin: autol;
 `
 const DivThree = styled.div`
-  border: 5px solid brown;
   width: 96%;
   height: 40vh;
   padding-left: 10px;
 `
 
 const DivFour = styled.div`
-  border: 5px solid purple;
   width: 96%;
   height: 40vh;
   padding-left: 10px;
