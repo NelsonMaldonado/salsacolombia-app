@@ -34,6 +34,7 @@ const Container = styled.main`
 `
 const Player = styled.div`
   max-width: 800px;
+  min-height: 500px;
   width: 80%;
   height: 40vh;
 `

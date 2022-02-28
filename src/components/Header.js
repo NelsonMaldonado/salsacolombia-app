@@ -9,11 +9,10 @@ const Header = () => {
         <Logo img src="/front_design.png" alt="salsa_logo" />
       </Link>
       <NavMenu>
-        <a>
-          <Link to="/">
-            <span>Home</span>
-          </Link>
-        </a>
+        <Link to="/">
+          <span>Home</span>
+        </Link>
+
         <Link to="/topvideos">
           <span>Top Videos</span>
         </Link>
@@ -29,7 +28,7 @@ const Header = () => {
         </Link>
       </NavMenu>
       <Link to="/prices">
-        <Button>PRIVATE CLASSES</Button>
+        <Button className="btnPrice">PRIVATE CLASSES</Button>
       </Link>
 
       <Link to="/">
@@ -100,4 +99,8 @@ const Button = styled.button`
   border: none;
   height: 30px;
   color: white;
+
+  @media (max-width: 480px) {
+    display: none;
+  }
 `
