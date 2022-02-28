@@ -25,10 +25,7 @@ const Home = () => {
         <Button className="btn">Ukraine Event 🇺🇦 </Button>
       </Link>
 
-      <a href="http://www.salsacolombia.net" className="btn linkOne">
-        SC
-      </a>
-      <a href="http://www.salsacolombia.net" className="btn linkOne ">
+      <a href="https://venmo.com/u/Nelly-Maldonado" className="btn linkOne ">
         VENMO
       </a>
       <a
@@ -56,6 +53,12 @@ const Home = () => {
 export default Home
 
 const Container = styled.main`
+  @media (min-width: 501px) {
+    .linkOne {
+      display: none;
+    }
+  }
+
   @media (max-width: 500px) {
     height: 900px;
 
