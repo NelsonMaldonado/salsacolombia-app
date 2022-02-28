@@ -49,6 +49,10 @@ const Container = styled.div`
   align-items: center;
   padding: 0 36px;
   overflow-x: hidden;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
 `
 
 const NavMenu = styled.nav`
@@ -56,6 +60,10 @@ const NavMenu = styled.nav`
   flex: 1;
   margin-left: 25px;
   align-itmes: center;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
 
   span {
     color: white;
@@ -100,7 +108,7 @@ const Button = styled.button`
   height: 30px;
   color: white;
 
-  @media (max-width: 480px) {
+  @media (max-width: 500px) {
     display: none;
   }
 `
