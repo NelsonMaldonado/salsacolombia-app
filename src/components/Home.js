@@ -16,7 +16,6 @@ const Home = () => {
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullscreen
         ></iframe>
       </Player>
       <Link to="/prices">
@@ -26,15 +25,21 @@ const Home = () => {
         <Button className="btn">Ukraine Event 🇺🇦 </Button>
       </Link>
 
-      <form>
-        <ButtonTikTok className="btn">TikTok</ButtonTikTok>
-
-        <ButtonYT className="btn">YouTube </ButtonYT>
-
-        <ButtonFace className="btn" formaction="http://stackoverflow.com">
-          Facebook{" "}
-        </ButtonFace>
-      </form>
+      <a href="http://www.salsacolombia.net" className="btn linkOne">
+        SC
+      </a>
+      <a href="http://www.salsacolombia.net" className="btn linkOne ">
+        VENMO
+      </a>
+      <a href="http://www.salsacolombia.net" className="btn linkOne">
+        TikTok
+      </a>
+      <a href="http://www.salsacolombia.net" className="btn linkOne">
+        Youtube
+      </a>
+      <a href="http://www.salsacolombia.net" className="btn linkOne">
+        FaceBook
+      </a>
     </Container>
   )
 }
@@ -44,11 +49,16 @@ export default Home
 const Container = styled.main`
   @media (max-width: 500px) {
     height: 900px;
-    background-image: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
-    form {
-      display: flex;
-      flex-direction: column;
-    }
+
+    background-color: #0a0a27;
+    opacity: 0.8;
+    background-image: linear-gradient(135deg, #393c6a 25%, transparent 25%),
+      linear-gradient(225deg, #393c6a 25%, transparent 25%),
+      linear-gradient(45deg, #393c6a 25%, transparent 25%),
+      linear-gradient(315deg, #393c6a 25%, #0a0a27 25%);
+    background-position: 23px 0, 23px 0, 0 0, 0 0;
+    background-size: 46px 46px;
+    background-repeat: repeat;
   }
   display: flex;
   justify-content: center;
@@ -76,10 +86,8 @@ const Player = styled.div`
     display: none;
   }
 `
-const ButtonYT = styled.button``
-const ButtonFace = styled.button``
+
 const Button = styled.button``
-const ButtonTikTok = styled.button``
 const ButtonPrice = styled.button`
   @media (min-width: 501px) {
     display: none;
