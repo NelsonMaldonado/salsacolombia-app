@@ -31,13 +31,22 @@ const Home = () => {
       <a href="http://www.salsacolombia.net" className="btn linkOne ">
         VENMO
       </a>
-      <a href="http://www.salsacolombia.net" className="btn linkOne">
+      <a
+        href="https://www.tiktok.com/@salsacolombiatiktok"
+        className="btn linkOne"
+      >
         TikTok
       </a>
-      <a href="http://www.salsacolombia.net" className="btn linkOne">
+      <a
+        href="https://www.youtube.com/c/salsacolombiaofficial"
+        className="btn linkOne"
+      >
         Youtube
       </a>
-      <a href="http://www.salsacolombia.net" className="btn linkOne">
+      <a
+        href="https://www.facebook.com/salsacolombia.net"
+        className="btn linkOne"
+      >
         FaceBook
       </a>
     </Container>
@@ -70,10 +79,16 @@ const Container = styled.main`
     margin-top: 30px;
     background-color: #00bdfe;
     border: none;
-    height: 40px;
+    height: 50px;
     color: white;
     width: 300px;
     font-size: 25px;
+    border-radius: 20px;
+  }
+  .linkOne {
+    text-decoration: none;
+    text-align: center;
+    vertical-align: center;
   }
 `
 const Player = styled.div`
