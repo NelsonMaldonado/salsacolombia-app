@@ -4,6 +4,9 @@ import { Link } from "react-router-dom"
 const Home = () => {
   return (
     <Container>
+      <Link to="/prices">
+        <ButtonPrice className="btn">PRIVATE CLASSES</ButtonPrice>
+      </Link>
       <Player>
         <iframe
           width="100%"
@@ -16,7 +19,16 @@ const Home = () => {
         ></iframe>
       </Player>
       <Link to="/ukraine">
-        <Button>Ukraine Event 🇺🇦 </Button>
+        <Button className="btn">Ukraine Event 🇺🇦 </Button>
+      </Link>
+      <Link to="/ukraine">
+        <Button className="btn">TikTok </Button>
+      </Link>
+      <Link to="/ukraine">
+        <Button className="btn">YouTube </Button>
+      </Link>
+      <Link to="/ukraine">
+        <Button className="btn">Facebook </Button>
       </Link>
     </Container>
   )
@@ -31,18 +43,28 @@ const Container = styled.main`
   position: relative;
   margin-top: 100px;
   flex-direction: column;
+  .btn {
+    margin-top: 30px;
+    background-color: #00bdfe;
+    border: none;
+    height: 40px;
+    color: white;
+    width: 300px;
+    font-size: 25px;
+  }
 `
 const Player = styled.div`
   max-width: 800px;
+  min-height: 500px;
   width: 80%;
   height: 40vh;
+  @media (max-width: 500px) {
+    display: none;
+  }
 `
-const Button = styled.button`
-  margin-top: 30px;
-  background-color: #00bdfe;
-  border: none;
-  height: 40px;
-  color: white;
-  width: 300px;
-  font-size: 25px;
+const Button = styled.button``
+const ButtonPrice = styled.button`
+  @media (min-width: 501px) {
+    display: none;
+  }
 `

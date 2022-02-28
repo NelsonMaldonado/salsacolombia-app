@@ -9,11 +9,10 @@ const Header = () => {
         <Logo img src="/front_design.png" alt="salsa_logo" />
       </Link>
       <NavMenu>
-        <a>
-          <Link to="/">
-            <span>Home</span>
-          </Link>
-        </a>
+        <Link to="/">
+          <span>Home</span>
+        </Link>
+
         <Link to="/topvideos">
           <span>Top Videos</span>
         </Link>
@@ -29,7 +28,7 @@ const Header = () => {
         </Link>
       </NavMenu>
       <Link to="/prices">
-        <Button>PRIVATE CLASSES</Button>
+        <Button className="btnPrice">PRIVATE CLASSES</Button>
       </Link>
 
       <Link to="/">
@@ -50,6 +49,10 @@ const Container = styled.div`
   align-items: center;
   padding: 0 36px;
   overflow-x: hidden;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
 `
 
 const NavMenu = styled.nav`
@@ -57,6 +60,10 @@ const NavMenu = styled.nav`
   flex: 1;
   margin-left: 25px;
   align-itmes: center;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
 
   span {
     color: white;
@@ -100,4 +107,8 @@ const Button = styled.button`
   border: none;
   height: 30px;
   color: white;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
 `

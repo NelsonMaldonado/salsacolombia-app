@@ -8,6 +8,7 @@ import TopVideos from "./components/TopVideos"
 import About from "./components/about"
 import Ukraine from "./components/ukraine"
 import Prices from "./components/prices"
+import styled from "styled-components"
 
 function App() {
   return (
