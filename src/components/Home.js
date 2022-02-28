@@ -25,7 +25,10 @@ const Home = () => {
         <Button className="btn">Ukraine Event 🇺🇦 </Button>
       </Link>
 
-      <a href="https://venmo.com/u/Nelly-Maldonado" className="btn linkOne ">
+      <a
+        href="https://venmo.com/code?user_id=2033099810537472420&created=1646040905.15421&printed=1"
+        className="btn linkOne "
+      >
         VENMO
       </a>
       <a
