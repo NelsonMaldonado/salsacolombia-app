@@ -19,15 +19,15 @@ const Home = () => {
         ></iframe>
       </Player>
       <Link to="/prices">
-        <ButtonPrice className=" btn2">PRIVATE CLASSES</ButtonPrice>
+        <ButtonPrice className=" btn2">💃🏻 Lessons 🕺🏽 </ButtonPrice>
       </Link>
       <Link to="/ukraine">
         <Button className=" btn2">Ukraine Event 🇺🇦 </Button>
       </Link>
       <MobileBody>
-        <form action="https://www.salsacolombia.net/">
+        <form action="https://sfsalsafestival.com/tickets/">
           <Button className=" btn2 off" type="submit">
-            Private Classes
+            April 1st WorkShop 🇺🇸
           </Button>
         </form>
         <form action="https://venmo.com/code?user_id=2033099810537472420&created=1646040905.15421&printed=1">
@@ -66,19 +66,8 @@ const Container = styled.main`
     align-items: center;
     padding-top: 40px;
 
-    background-color: #0a0a27;
-    opacity: 0.8;
-    background-image: linear-gradient(135deg, #393c6a 25%, transparent 25%),
-      linear-gradient(225deg, #393c6a 25%, transparent 25%),
-      linear-gradient(45deg, #393c6a 25%, transparent 25%),
-      linear-gradient(315deg, #393c6a 25%, #0a0a27 25%);
-    background-position: 23px 0, 23px 0, 0 0, 0 0;
-    background-size: 46px 46px;
-    background-repeat: repeat;
-    background-attachment: fixed;
-
-
-
+    background-color: #20232a;
+  
   }
  
   display: flex;
@@ -91,10 +80,12 @@ const Container = styled.main`
     margin-top: 30px;
     background-color: #00bdfe;
     border: none;
-    height: 75px;
+    height: 55px;
     color: white;
     font-size: 25px;
     border-radius: 50px;
+    font-family: monospace;
+
   }
 
 
