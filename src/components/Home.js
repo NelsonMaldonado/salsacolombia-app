@@ -30,7 +30,7 @@ const Home = () => {
             April 1st WorkShop 🇺🇸
           </Button>
         </form>
-        <form action="https://venmo.com/code?user_id=2033099810537472420&created=1646040905.15421&printed=1">
+        <form action="https://venmo.com/u/nelly-maldonado">
           <Button className=" btn2 off" type="submit">
             Venmo
           </Button>
