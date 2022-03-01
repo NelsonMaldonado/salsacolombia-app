@@ -4,11 +4,13 @@ import { Link } from "react-router-dom"
 const Prices = () => {
   return (
     <TopDiv>
-      <Link className="logOne" to="/">
-        <Logo img src="/front_design.png" alt="salsa_logo" />
-      </Link>
       <DivOne></DivOne>
       <DivTwo>
+        <LogoHolder>
+          <Link className="logOne" to="/">
+            <Logo img src="/front_design.png" alt="salsa_logo" />
+          </Link>
+        </LogoHolder>
         <DivThree>
           <h2>VIRTUAL OR IN-PERSON PRIVATE LESSONS</h2>
           <h3>1-on-1 LESSONS</h3>
@@ -65,7 +67,7 @@ const TopDiv = styled.div`
 `
 const DivOne = styled.div`
   width: 60%;
-
+  // border: 1px solid red;
   @media (max-width: 500px) {
     width: 90%;
     text-align: center;
@@ -75,10 +77,11 @@ const DivOne = styled.div`
 const DivTwo = styled.div`
   width: 35%;
   margin: autol;
-
+  // border: 1px solid red;
   @media (max-width: 500px) {
     width: 90%;
-
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     height: 810px;
   }
@@ -86,24 +89,35 @@ const DivTwo = styled.div`
 const DivThree = styled.div`
   width: 96%;
 
-  padding-left: 10px;
-
   @media (max-width: 500px) {
+    margin-top: 20px;
     width: 90%;
     text-align: center;
+    // border: 1px solid blue;
+    margin-left: auto;
+    margin-right: auto;
   }
 `
 
 const DivFour = styled.div`
   width: 96%;
 
-  padding-left: 10px;
-
   @media (max-width: 500px) {
     width: 90%;
     text-align: center;
+    // border: 1px solid blue;
+    margin-left: auto;
+    margin-right: auto;
   }
 `
 const Logo = styled.img`
-  height: 20px;
+  height: 120px;
+  @media (min-width: 501px) {
+    display: none;
+  }
+`
+const LogoHolder = styled.div`
+  margin-top: 36px;
+  text-align: center;
+  // border: 1px red solid;
 `

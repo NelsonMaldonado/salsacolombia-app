@@ -84,7 +84,8 @@ const Container = styled.main`
     color: white;
     font-size: 25px;
     border-radius: 50px;
-    font-family: monospace;
+    font-family: roboto;
+    font-weight: lighter;
 
   }
 
