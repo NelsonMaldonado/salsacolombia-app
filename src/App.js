@@ -9,6 +9,7 @@ import About from "./components/about"
 import Ukraine from "./components/ukraine"
 import Prices from "./components/prices"
 import styled from "styled-components"
+import BestSong from "./components/BestSong"
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route path="/prices">
             <Prices />
+          </Route>
+          <Route path="/bestsongs">
+            <BestSong />
           </Route>
         </Switch>
       </Router>
