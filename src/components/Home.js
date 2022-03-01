@@ -25,14 +25,18 @@ const Home = () => {
         <Button className=" btn2">Ukraine Event 🇺🇦 </Button>
       </Link>
       <MobileBody>
+        <Link to="/bestsongs">
+          <Button className=" btn2">Salsa Poll</Button>
+        </Link>
+
         <form action="https://sfsalsafestival.com/tickets/">
           <Button className=" btn2 off" type="submit">
             April 1st WorkShop 🇺🇸
           </Button>
         </form>
-        <form action="https://venmo.com/u/nelly-maldonado">
+        <form action="https://venmo.com/code?user_id=2033099810537472420&created=1646040905.15421&printed=1">
           <Button className=" btn2 off" type="submit">
-            Venmo
+            Venmo @Nelly-Maldonado
           </Button>
         </form>
         <form action="https://www.tiktok.com/@salsacolombiatiktok">
