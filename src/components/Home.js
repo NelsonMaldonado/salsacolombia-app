@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const Home = () => {
   return (
     <Container>
-      <Link to="/">
+      <Link className="logOne" to="/">
         <Logo img src="/front_design.png" alt="salsa_logo" />
       </Link>
 
@@ -19,36 +19,38 @@ const Home = () => {
         ></iframe>
       </Player>
       <Link to="/prices">
-        <ButtonPrice className="btn">PRIVATE CLASSES</ButtonPrice>
+        <ButtonPrice className=" btn2">PRIVATE CLASSES</ButtonPrice>
       </Link>
       <Link to="/ukraine">
-        <Button className="btn">Ukraine Event 🇺🇦 </Button>
+        <Button className=" btn2">Ukraine Event 🇺🇦 </Button>
       </Link>
-
-      <a
-        href="https://venmo.com/code?user_id=2033099810537472420&created=1646040905.15421&printed=1"
-        className="btn linkOne "
-      >
-        VENMO
-      </a>
-      <a
-        href="https://www.tiktok.com/@salsacolombiatiktok"
-        className="btn linkOne"
-      >
-        TikTok
-      </a>
-      <a
-        href="https://www.youtube.com/c/salsacolombiaofficial"
-        className="btn linkOne"
-      >
-        Youtube
-      </a>
-      <a
-        href="https://www.facebook.com/salsacolombia.net"
-        className="btn linkOne"
-      >
-        FaceBook
-      </a>
+      <MobileBody>
+        <form action="https://www.salsacolombia.net/">
+          <Button className=" btn2 off" type="submit">
+            Private Classes
+          </Button>
+        </form>
+        <form action="https://venmo.com/code?user_id=2033099810537472420&created=1646040905.15421&printed=1">
+          <Button className=" btn2 off" type="submit">
+            Venmo
+          </Button>
+        </form>
+        <form action="https://www.tiktok.com/@salsacolombiatiktok">
+          <Button className=" btn2 off" type="submit">
+            TikTok
+          </Button>
+        </form>
+        <form action="https://www.youtube.com/c/salsacolombiaofficial">
+          <Button className=" btn2 off" type="submit">
+            YouTube
+          </Button>
+        </form>
+        <form action="https://www.facebook.com/salsacolombia.net">
+          <Button className=" btn2 off" type="submit">
+            FaceBook
+          </Button>
+        </form>
+      </MobileBody>
     </Container>
   )
 }
@@ -56,14 +58,13 @@ const Home = () => {
 export default Home
 
 const Container = styled.main`
-  @media (min-width: 501px) {
-    .linkOne {
-      display: none;
-    }
-  }
 
   @media (max-width: 500px) {
     height: 900px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
 
     background-color: #0a0a27;
     opacity: 0.8;
@@ -74,33 +75,40 @@ const Container = styled.main`
     background-position: 23px 0, 23px 0, 0 0, 0 0;
     background-size: 46px 46px;
     background-repeat: repeat;
-  }
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+    background-attachment: fixed;
 
+
+
+  }
+ 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 1080px;
   flex-direction: column;
-  .btn {
+  .btn2 {
+    width: 340px;
     margin-top: 30px;
     background-color: #00bdfe;
     border: none;
-    height: 50px;
+    height: 75px;
     color: white;
-    width: 300px;
     font-size: 25px;
-    border-radius: 20px;
+    border-radius: 50px;
   }
-  .linkOne {
-    text-decoration: none;
-    text-align: center;
-    vertical-align: center;
+
+
+    
+
+
+   
   }
 `
 const Player = styled.div`
-  margin-top: 100px;
   max-width: 800px;
   min-height: 500px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   width: 80%;
   height: 40vh;
   @media (max-width: 500px) {
@@ -115,5 +123,13 @@ const ButtonPrice = styled.button`
   }
 `
 const Logo = styled.img`
-  height: 80px;
+  height: 120px;
+  @media (min-width: 501px) {
+    display: none;
+  }
+`
+const MobileBody = styled.div`
+  @media (min-width: 501px) {
+    display: none;
+  }
 `
