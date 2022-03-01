@@ -83,7 +83,7 @@ const DivTwo = styled.div`
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    height: 810px;
+    height: 900px;
   }
 `
 const DivThree = styled.div`
@@ -92,7 +92,7 @@ const DivThree = styled.div`
   @media (max-width: 500px) {
     margin-top: 20px;
     width: 90%;
-    text-align: center;
+
     // border: 1px solid blue;
     margin-left: auto;
     margin-right: auto;
@@ -104,7 +104,7 @@ const DivFour = styled.div`
 
   @media (max-width: 500px) {
     width: 90%;
-    text-align: center;
+
     // border: 1px solid blue;
     margin-left: auto;
     margin-right: auto;
