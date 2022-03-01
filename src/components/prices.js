@@ -1,11 +1,14 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "react-router-dom"
 const Prices = () => {
   return (
     <TopDiv>
-      <DivOne>Left box</DivOne>
+      <Link className="logOne" to="/">
+        <Logo img src="/front_design.png" alt="salsa_logo" />
+      </Link>
+      <DivOne></DivOne>
       <DivTwo>
-        right box
         <DivThree>
           <h2>VIRTUAL OR IN-PERSON PRIVATE LESSONS</h2>
           <h3>1-on-1 LESSONS</h3>
@@ -52,23 +55,55 @@ const TopDiv = styled.div`
   height: 800px;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: #20232a;
+  }
 `
 const DivOne = styled.div`
   width: 60%;
+
+  @media (max-width: 500px) {
+    width: 90%;
+    text-align: center;
+  }
 `
 
 const DivTwo = styled.div`
   width: 35%;
   margin: autol;
+
+  @media (max-width: 500px) {
+    width: 90%;
+
+    justify-content: center;
+    height: 810px;
+  }
 `
 const DivThree = styled.div`
   width: 96%;
-  height: 40vh;
+
   padding-left: 10px;
+
+  @media (max-width: 500px) {
+    width: 90%;
+    text-align: center;
+  }
 `
 
 const DivFour = styled.div`
   width: 96%;
-  height: 40vh;
+
   padding-left: 10px;
+
+  @media (max-width: 500px) {
+    width: 90%;
+    text-align: center;
+  }
+`
+const Logo = styled.img`
+  height: 20px;
 `
