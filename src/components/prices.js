@@ -67,7 +67,7 @@ const TopDiv = styled.div`
     font-size: 14px;
   }
 
-  height: 1020px;
+  height: 1045px;
   display: flex;
   justify-content: space-between;
 
