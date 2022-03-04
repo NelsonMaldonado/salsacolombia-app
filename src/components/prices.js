@@ -33,6 +33,9 @@ const Prices = () => {
             technique, steps, choreo modules and finally partner work. You get
             to choose hours that work for you.{" "}
           </p>
+          <p>
+            ** location at 24hr fitness in Oakland (+$15 for San Francisco) **
+          </p>
         </DivThree>
         <DivFour>
           <h2>
@@ -42,7 +45,7 @@ const Prices = () => {
 
           <span>Livestream Package 1: $150 (Up to 10-people)</span>
           <br />
-          <span>Livestream Package 2: $300 (Up to 10-people)</span>
+          <span>Livestream Package 2: $300 (Up to 20-people)</span>
           <br />
           <span>Livestream Package 3: 650 (Up to 50-people)</span>
           <p>
@@ -64,7 +67,7 @@ const TopDiv = styled.div`
     font-size: 14px;
   }
 
-  height: 900px;
+  height: 1020px;
   display: flex;
   justify-content: space-between;
 
