@@ -14,8 +14,18 @@ const Prices = () => {
         <DivThree>
           <h2>VIRTUAL OR IN-PERSON PRIVATE LESSONS</h2>
           <h3>1-on-1 LESSONS</h3>
-          <span>Single Lesson $65</span> <br />
-          <span>5 Lesson Package $275</span>
+          <span>Single Lesson (1 hour) $65</span> <br />
+          <span>5 Hour Lesson Package $275</span>
+          <br />
+          <span>10 Hour Lesson Package $275</span>
+          <br />
+          <br />
+          <span>
+            DM
+            <a href="http://www.instagram.com/salsacolombia"> @Instagram</a> or
+            email:
+          </span>
+          <a href="mailto:nelly@salsacolombia.net">nelly@salsacolombia.net</a>
           <p>
             One-on-One lessons are a great way to have a personal experience in
             a class of your choice. Start training like a pro with Nelly
@@ -51,7 +61,7 @@ const TopDiv = styled.div`
   font-family: poppins-extralight, poppins, sans-serif;
   span {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   height: 900px;
@@ -88,7 +98,9 @@ const DivTwo = styled.div`
 `
 const DivThree = styled.div`
   width: 96%;
-
+  a {
+    color: #00bdfe;
+  }
   @media (max-width: 500px) {
     margin-top: 20px;
     width: 90%;

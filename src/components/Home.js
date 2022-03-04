@@ -25,9 +25,9 @@ const Home = () => {
         <Button className=" btn2">Ukraine Event 🇺🇦 </Button>
       </Link>
       <MobileBody>
-        <Link to="/bestsongs">
+        {/* <Link to="/bestsongs">
           <Button className=" btn2">Salsa Poll</Button>
-        </Link>
+        </Link> */}
 
         <form action="https://sfsalsafestival.com/tickets/">
           <Button className=" btn2 off" type="submit">
