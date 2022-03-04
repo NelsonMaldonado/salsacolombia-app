@@ -13,11 +13,11 @@ const Header = () => {
           <span>Home</span>
         </Link>
 
-        <Link to="/topvideos">
+        {/* <Link to="/topvideos">
           <span>Top Videos</span>
-        </Link>
+        </Link> */}
 
-        <Link to="/quiz">
+        {/* <Link to="/quiz">
           <span>Quiz</span>
         </Link>
         <Link to="/choreo">
@@ -25,7 +25,7 @@ const Header = () => {
         </Link>
         <Link to="/about">
           <span>About</span>
-        </Link>
+        </Link> */}
       </NavMenu>
       <Link to="/prices">
         <Button className="btnPrice">PRIVATE CLASSES</Button>
