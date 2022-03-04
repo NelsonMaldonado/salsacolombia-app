@@ -8,15 +8,19 @@ const Quiz = () => {
     setName(event.target.value)
   }
 
+  const onSubmit = (event) => {
+    event.preventDefault()
+  }
   return (
     <div>
       <h1>This is a quiz to check what level of salsa you have</h1>
-      <form>
+      <form onSubmit={onSubmit}>
         <h2> Hey {name}</h2>
         <label>
           Full Name
           <input type="text" name="name" onChange={nameFunc} />
         </label>
+        <button>send</button>
       </form>
       <Card></Card>
     </div>
