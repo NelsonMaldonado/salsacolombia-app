@@ -1,8 +1,14 @@
 import React from "react"
-
+import { Link } from "react-router-dom"
+import styled from "styled-components"
 const Ukraine = () => {
   return (
-    <div>
+    <MainDiv>
+      <LogoHolder>
+        <Link className="logOne" to="/">
+          <Logo img src="/front_design.png" alt="salsa_logo" />
+        </Link>
+      </LogoHolder>
       <h1>Workshop in Ukraine</h1>
       <h2>Sorry this event has been canceled till further notice 😥</h2>
       <ol>
@@ -35,10 +41,27 @@ const Ukraine = () => {
       </ol>
       <ol>
         <h3> Partner Work:</h3>
-        <p> Learn techniques to applied salsa calena steps to partner work</p>
+        <p> Apply footwork to dance with a partner</p>
       </ol>
-    </div>
+    </MainDiv>
   )
 }
 
 export default Ukraine
+
+const Logo = styled.img`
+  height: 120px;
+  @media (min-width: 501px) {
+    display: none;
+  }
+`
+const LogoHolder = styled.div`
+  padding-top: 36px;
+  text-align: center;
+  // border: 1px red solid;
+`
+const MainDiv = styled.div`
+  color: white;
+  background-color: #20232a;
+  padding-bottom: 36px;
+`
