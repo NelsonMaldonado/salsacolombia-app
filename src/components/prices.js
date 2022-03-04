@@ -17,7 +17,7 @@ const Prices = () => {
           <span>Single Lesson (1 hour) $65</span> <br />
           <span>5 Hour Lesson Package $275</span>
           <br />
-          <span>10 Hour Lesson Package $275</span>
+          <span>10 Hour Lesson Package $500</span>
           <br />
           <br />
           <span>
