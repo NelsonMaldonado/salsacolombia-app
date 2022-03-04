@@ -66,7 +66,7 @@ const TopDiv = styled.div`
     font-weight: bold;
     font-size: 14px;
   }
-
+  padding-bottom: 36px;
   height: 1045px;
   display: flex;
   justify-content: space-between;
@@ -132,7 +132,7 @@ const Logo = styled.img`
   }
 `
 const LogoHolder = styled.div`
-  margin-top: 36px;
+  // margin-top: 36px;
   text-align: center;
   // border: 1px red solid;
 `
