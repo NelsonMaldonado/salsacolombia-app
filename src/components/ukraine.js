@@ -10,7 +10,7 @@ const Ukraine = () => {
         </Link>
       </LogoHolder>
       <h1>Workshop in Ukraine</h1>
-      <h2>Sorry this event has been canceled till further notice 😥</h2>
+      <h2>Sorry this event has been canceled untill further notice 😥</h2>
       <ol>
         <h3>What you will learn Basic Level:</h3>
         <li> Basico Caleno </li>
