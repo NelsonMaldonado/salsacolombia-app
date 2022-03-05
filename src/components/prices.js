@@ -34,7 +34,7 @@ const Prices = () => {
             to choose hours that work for you.{" "}
           </p>
           <p>
-            ** location at 24hr fitness in Oakland (+$15 for San Francisco) **
+            ** location at 24hr fitness in Oakland (+$15 for San Francisco)**
           </p>
         </DivThree>
         <DivFour>
@@ -51,7 +51,8 @@ const Prices = () => {
           <p>
             Enjoy a private dance group lesson exclusive to YOUR circle! This
             package is great for birthday parties, team bonding and overall
-            group fun, social events, coorperate events, festivals and more!
+            group fun, social events, coorperate events, festivals and more! We
+            also do workshops in your office space.
           </p>
         </DivFour>
       </DivTwo>
