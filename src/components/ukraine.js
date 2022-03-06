@@ -10,7 +10,7 @@ const Ukraine = () => {
         </Link>
       </LogoHolder>
       <h1>Workshop in Ukraine</h1>
-      <h2>Sorry this event has been canceled untill further notice 😥</h2>
+      <h2>Sorry this event has been canceled until further notice 😥</h2>
       <ol>
         <h3>What you will learn Basic Level:</h3>
         <li> Basico Caleno </li>
@@ -63,7 +63,7 @@ const LogoHolder = styled.div`
 const MainDiv = styled.div`
   padding-left: 35px;
   padding-down: 35px;
-  border: 2px solid red;
+  // border: 2px solid red;
   color: white;
   background-color: #20232a;
   padding-bottom: 36px;
