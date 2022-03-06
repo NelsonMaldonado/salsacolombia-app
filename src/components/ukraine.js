@@ -61,6 +61,9 @@ const LogoHolder = styled.div`
   // border: 1px red solid;
 `
 const MainDiv = styled.div`
+  padding-left: 35px;
+  padding-down: 35px;
+  border: 2px solid red;
   color: white;
   background-color: #20232a;
   padding-bottom: 36px;
