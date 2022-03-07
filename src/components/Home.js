@@ -31,7 +31,7 @@ const Home = () => {
 
         <form action="https://sfsalsafestival.com/tickets/">
           <Button className=" btn2 off" type="submit">
-            April 1st WorkShop 🇺🇸
+            SF Festival Workshop
           </Button>
         </form>
         <form action="https://venmo.com/code?user_id=2033099810537472420&created=1646040905.15421&printed=1">
@@ -51,7 +51,7 @@ const Home = () => {
         </form>
         <form action="https://www.facebook.com/salsacolombia.net">
           <Button className=" btn2 off" type="submit">
-            FaceBook
+            Facebook
           </Button>
         </form>
       </MobileBody>
