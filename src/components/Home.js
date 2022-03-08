@@ -30,6 +30,7 @@ const Home = () => {
           SF Festival Workshop 🇺🇸
         </Button>
       </form>
+
       {/* <Link to="/ukraine">
         <Button className=" btn2">SF Festival Workshop 🇺🇸 </Button>
       </Link> */}
@@ -38,16 +39,11 @@ const Home = () => {
           <Button className=" btn2">Salsa Poll</Button>
         </Link> */}
 
-        <form action="https://sfsalsafestival.com/tickets/">
-          <Button className=" btn2 off" type="submit">
-            SF Festival Workshop 🇺🇸
-          </Button>
-        </form>
-        <form action="https://venmo.com/code?user_id=2033099810537472420&created=1646040905.15421&printed=1">
+        {/* <form action="https://venmo.com/code?user_id=2033099810537472420&created=1646040905.15421&printed=1">
           <Button className=" btn2 off" type="submit">
             Venmo @Nelly-Maldonado
           </Button>
-        </form>
+        </form> */}
         <form action="https://www.tiktok.com/@salsacolombiatiktok">
           <Button className=" btn2 off" type="submit">
             TikTok
