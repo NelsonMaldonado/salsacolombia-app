@@ -76,6 +76,7 @@ const Home = () => {
         </form>
         <Footnote>© 2022 SalsaColombia DA. Made in Oakland CA </Footnote>
       </MobileBody>
+      <Footnote2>© 2022 SalsaColombia DA. Made in Oakland CA </Footnote2>
     </Container>
   )
 }
@@ -85,7 +86,7 @@ export default Home
 const Container = styled.main`
 
   @media (max-width: 500px) {
-    height: 700px;
+    height: 810px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -158,4 +159,9 @@ const Footnote = styled.text`
 const Sfcont = styled.text`
   color: white;
   font-size: 21px;
+`
+
+const Footnote2 = styled.text`
+  margin-top: 60px;
+  color: black;
 `
