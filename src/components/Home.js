@@ -76,7 +76,7 @@ export default Home
 const Container = styled.main`
 
   @media (max-width: 500px) {
-    height: 800px;
+    height: 700px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -144,5 +144,5 @@ const Footnote = styled.text`
   color: white;
   text-align: center;
   // border: 1px solid white;
-  margin-top: 60px;
+  margin-top: 75px;
 `
