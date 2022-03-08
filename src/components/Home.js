@@ -18,18 +18,19 @@ const Home = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
       </Player>
-      <Link to="/prices">
-        <ButtonPrice className=" btn2">💃🏻 Lessons 🕺🏽 </ButtonPrice>
-      </Link>
+
       <form
         action="https://sfsalsafestival.com/tickets/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Button className=" btn2 off" type="submit">
-          SF Festival Workshop 🇺🇸
+          SF Salsa Festival Workshop 🇺🇸
         </Button>
       </form>
+      <Link to="/prices">
+        <ButtonPrice className=" btn2">💃🏻 Lessons 🕺🏽 </ButtonPrice>
+      </Link>
 
       {/* <Link to="/ukraine">
         <Button className=" btn2">SF Festival Workshop 🇺🇸 </Button>
@@ -64,6 +65,7 @@ const Home = () => {
             Instagram
           </Button>
         </form>
+        <Footnote>© 2022 SalsaColombia DA. Made in Oakland CA </Footnote>
       </MobileBody>
     </Container>
   )
@@ -74,12 +76,13 @@ export default Home
 const Container = styled.main`
 
   @media (max-width: 500px) {
-    height: 900px;
+    height: 800px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-top: 40px;
-
+    padding-bottom: 40px;
+    background-repeat: repeat-y;
     background-color: #20232a;
   
   }
@@ -132,4 +135,14 @@ const MobileBody = styled.div`
   @media (min-width: 501px) {
     display: none;
   }
+`
+const Footnote = styled.text`
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  text-align: center;
+  // border: 1px solid white;
+  margin-top: 60px;
 `
