@@ -41,7 +41,11 @@ const Ukraine = () => {
       </ol>
       <ol>
         <h3> Partner Work:</h3>
-        <p> Apply footwork to dance with a partner</p>
+        <p>
+          {" "}
+          *** How to dance with your partner and apply salsa calena steps
+          correctly ***
+        </p>
       </ol>
     </MainDiv>
   )
@@ -62,6 +66,7 @@ const LogoHolder = styled.div`
 `
 const MainDiv = styled.div`
   padding-left: 35px;
+  padding-right: 35px;
   padding-down: 35px;
   // border: 2px solid red;
   color: white;
