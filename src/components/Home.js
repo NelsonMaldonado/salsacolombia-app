@@ -21,9 +21,18 @@ const Home = () => {
       <Link to="/prices">
         <ButtonPrice className=" btn2">💃🏻 Lessons 🕺🏽 </ButtonPrice>
       </Link>
-      <Link to="/ukraine">
-        <Button className=" btn2">Ukraine Event 🇺🇦 </Button>
-      </Link>
+      <form
+        action="https://sfsalsafestival.com/tickets/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button className=" btn2 off" type="submit">
+          SF Festival Workshop 🇺🇸
+        </Button>
+      </form>
+      {/* <Link to="/ukraine">
+        <Button className=" btn2">SF Festival Workshop 🇺🇸 </Button>
+      </Link> */}
       <MobileBody>
         {/* <Link to="/bestsongs">
           <Button className=" btn2">Salsa Poll</Button>
@@ -31,7 +40,7 @@ const Home = () => {
 
         <form action="https://sfsalsafestival.com/tickets/">
           <Button className=" btn2 off" type="submit">
-            SF Festival Workshop
+            SF Festival Workshop 🇺🇸
           </Button>
         </form>
         <form action="https://venmo.com/code?user_id=2033099810537472420&created=1646040905.15421&printed=1">
@@ -52,6 +61,11 @@ const Home = () => {
         <form action="https://www.facebook.com/salsacolombia.net">
           <Button className=" btn2 off" type="submit">
             Facebook
+          </Button>
+        </form>
+        <form action="https://www.instagram.com/salsacolombia">
+          <Button className=" btn2 off" type="submit">
+            Instagram
           </Button>
         </form>
       </MobileBody>
@@ -77,7 +91,7 @@ const Container = styled.main`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 1080px;
+  height:100%;
   flex-direction: column;
   .btn2 {
     width: 340px;
@@ -92,12 +106,6 @@ const Container = styled.main`
     font-weight: lighter;
 
   }
-
-
-    
-
-
-   
   }
 `
 const Player = styled.div`
