@@ -81,6 +81,8 @@ become a salsa dancer
 3 - Create a tab to vote for the best Salsa Song by Category
 4 - Create a section for exercises only
 5 - I need to add Firebase Auth to keep track of students schedules
+6 - This app also needs a section for Video Production 
+7 - A link to buy my course
 
 This project is under construction :)
 Expected launch day March 1!
