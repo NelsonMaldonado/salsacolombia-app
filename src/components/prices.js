@@ -90,7 +90,7 @@ const DivOne = styled.div`
 
 const DivTwo = styled.div`
   width: 35%;
-  margin: autol;
+  margin-top: 0px;
   // border: 1px solid red;
   @media (max-width: 500px) {
     width: 90%;
