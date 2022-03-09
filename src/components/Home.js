@@ -84,7 +84,7 @@ const Home = () => {
 export default Home
 
 const Container = styled.main`
-border: 1px solid red;
+// border: 1px solid red;
   @media (max-width: 500px) {
     height: 810px;
     display: flex;
@@ -168,5 +168,6 @@ const Footnote2 = styled.text`
 
   margin-top: 60px;
   color: black;
+  background-color: #20232a;
   margin-bottom 10px;
 `
