@@ -8,8 +8,9 @@ import TopVideos from "./components/TopVideos"
 import About from "./components/about"
 import Ukraine from "./components/ukraine"
 import Prices from "./components/prices"
-import styled from "styled-components"
+
 import BestSong from "./components/BestSong"
+import StepsApi from "./components/StepsApi"
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
           </Route>
           <Route path="/bestsongs">
             <BestSong />
+          </Route>
+          <Route path="/steps">
+            <StepsApi />
           </Route>
         </Switch>
       </Router>
