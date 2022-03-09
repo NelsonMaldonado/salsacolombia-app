@@ -41,6 +41,9 @@ const Home = () => {
       <Link to="/prices">
         <ButtonPrice className=" btn2">💃🏻 Lessons 🕺🏽 </ButtonPrice>
       </Link>
+      <Link to="/steps">
+        <ButtonPrice className=" btn2">Steps </ButtonPrice>
+      </Link>
 
       {/* <Link to="/ukraine">
         <Button className=" btn2">SF Festival Workshop 🇺🇸 </Button>
@@ -147,7 +150,7 @@ const MobileBody = styled.div`
     display: none;
   }
 `
-const Footnote = styled.text`
+const Footnote = styled.div`
   display: flex;
   font-size: 10px;
   justify-content: center;
@@ -156,12 +159,12 @@ const Footnote = styled.text`
   // border: 1px solid white;
   margin-top: 75px;
 `
-const Sfcont = styled.text`
+const Sfcont = styled.div`
   color: white;
   font-size: 20px;
 `
 
-const Footnote2 = styled.text`
+const Footnote2 = styled.div`
   @media (max-width: 501px) {
     display: none;
   }
