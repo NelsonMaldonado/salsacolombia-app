@@ -150,7 +150,7 @@ const Footnote = styled.text`
   display: flex;
   font-size: 10px;
   justify-content: center;
-  margin: auto;
+
   color: white;
   text-align: center;
   // border: 1px solid white;
@@ -168,6 +168,6 @@ const Footnote2 = styled.text`
 
   margin-top: 60px;
   color: black;
-  background-color: #20232a;
+  
   margin-bottom 10px;
 `

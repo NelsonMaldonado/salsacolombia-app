@@ -153,7 +153,7 @@ const Footnote = styled.div`
     background-color: #20232a;
   }
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
 
   // border: 1px solid red;
 `
