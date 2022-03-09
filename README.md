@@ -83,8 +83,9 @@ become a salsa dancer
 5 - I need to add Firebase Auth to keep track of students schedules
 6 - This app also needs a section for Video Production 
 7 - A link to buy my course
+8 - I need to create a class logger, to keep track of how many classes we already had.
 
 This project is under construction :)
-Expected launch day March 1!
+Expected launch day March 23rd!
 
 This web app is now on git hub!
