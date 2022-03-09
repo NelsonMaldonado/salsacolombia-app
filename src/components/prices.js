@@ -74,7 +74,7 @@ const TopDiv = styled.div`
     font-weight: bold;
     font-size: 14px;
   }
-  padding-top: 36px;
+  padding-top: 40px;
   padding-bottom: 0px;
   height: 100%;
   display: flex;
