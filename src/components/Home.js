@@ -18,25 +18,26 @@ const Home = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
       </Player>
-
-      <form
-        action="https://sfsalsafestival.com/tickets/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Button className=" btn2 off" type="submit">
-          <Sfcont>SF Salsa Festival Workshop 🇺🇸</Sfcont>
-        </Button>
-      </form>
-      <form
-        action="https://sfsalsafestival.com/wp-content/uploads/2022/02/SF-Salsa-Festival-Workshop-Schedule-2022.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Button className=" btn2 off" type="submit">
-          <Sfcont>SFSF Workshop Schedule 2022 🇺🇸</Sfcont>
-        </Button>
-      </form>
+      <LandingBottons>
+        <form
+          action="https://sfsalsafestival.com/tickets/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className=" btn2 off" type="submit">
+            <Sfcont>SF Salsa Festival Workshop 🇺🇸</Sfcont>
+          </Button>
+        </form>
+        <form
+          action="https://sfsalsafestival.com/wp-content/uploads/2022/02/SF-Salsa-Festival-Workshop-Schedule-2022.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className=" btn2 off" type="submit">
+            <Sfcont>SFSF Workshop Schedule 2022 🇺🇸</Sfcont>
+          </Button>
+        </form>
+      </LandingBottons>
       <Link to="/prices">
         <ButtonPrice className=" btn2">💃🏻 Lessons 🕺🏽 </ButtonPrice>
       </Link>
@@ -150,7 +151,6 @@ const Footnote = styled.text`
   display: flex;
   font-size: 10px;
   justify-content: center;
-
   color: white;
   text-align: center;
   // border: 1px solid white;
@@ -158,7 +158,7 @@ const Footnote = styled.text`
 `
 const Sfcont = styled.text`
   color: white;
-  font-size: 21px;
+  font-size: 20px;
 `
 
 const Footnote2 = styled.text`
@@ -170,4 +170,17 @@ const Footnote2 = styled.text`
   color: black;
   
   margin-bottom 10px;
+`
+const LandingBottons = styled.div`
+  @media (min-width: 501px) {
+    .off {
+      background-color: #01270E2;
+      border-radius: 2px;
+    }
+    display: flex;
+    // background-color: grey;
+    justify-content: space-around;
+    width: 800px;
+    // border: 2px solid red;
+  }
 `
