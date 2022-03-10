@@ -90,10 +90,16 @@ const TopDiv = styled.div`
 `
 const DivOne = styled.div`
   width: 60%;
+
+  background-image: url("price.jpg");
+  background-size: cover;
+  background-position: center;
+
   // border: 1px solid red;
   @media (max-width: 500px) {
     width: 90%;
     text-align: center;
+    margin-bottom: 20px;
   }
 `
 
