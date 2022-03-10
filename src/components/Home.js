@@ -41,9 +41,9 @@ const Home = () => {
       <Link to="/prices">
         <ButtonPrice className=" btn2">💃🏻 Lessons 🕺🏽 </ButtonPrice>
       </Link>
-      <Link to="/steps">
+      {/* <Link to="/steps">
         <ButtonPrice className=" btn2">Steps </ButtonPrice>
-      </Link>
+      </Link> */}
 
       {/* <Link to="/ukraine">
         <Button className=" btn2">SF Festival Workshop 🇺🇸 </Button>
