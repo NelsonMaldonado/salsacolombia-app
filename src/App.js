@@ -11,6 +11,7 @@ import Prices from "./components/prices"
 
 import BestSong from "./components/BestSong"
 import StepsApi from "./components/StepsApi"
+import React, { useEffect } from "react"
 
 function App() {
   return (
