@@ -10,14 +10,17 @@ var arr = [
 ]
 
 var result = arr.map((person) => person.id)
-// console.log(result)
+console.log(result)
 
 const len = arr.length
 console.log(len)
-const loadRandom = () => {
-  const num = Math.floor(Math.random() * 10)
 
-  console.log(num)
-  return num
+function sing(callback) {
+  console.log(" la  la la  la")
+  callback()
 }
-loadRandom()
+
+function meow() {
+  console.log("meow")
+}
+sing(meow)
