@@ -81,6 +81,7 @@ become a salsa dancer
 3 - Create a tab to vote for the best Salsa Song by Category
 4 - Create a section for exercises only
 5 - I need to add Firebase Auth to keep track of students schedules
+6 - Make a section videos section with Youtube videos of all choreos like Merecumbe, Acere Bongo, Vaso de Colores
 
 This project is under construction :)
 Expected launch day March 1!
