@@ -46,11 +46,8 @@ const StepsApi = () => {
     event.preventDefault()
     const paso = { newStep }
 
-    fetch("https://backend-salsacolombia.herokuapp.com/api/catalog", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(paso),
-    })
+    axios
+      .post("https://backend-salsacolombia.herokuapp.com/api/catalog", newStep)
       .then(() => {
         console.log("Step added")
       })
