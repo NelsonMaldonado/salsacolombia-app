@@ -25,7 +25,7 @@ const Home = () => {
           rel="noopener noreferrer"
         >
           <Button className=" btn2 off" type="submit">
-            <Sfcont>SF Salsa Festival Workshop 🇺🇸</Sfcont>
+            <Sfcont>www.sfsalsafestival.com 🇺🇸</Sfcont>
           </Button>
         </form>
         <form
@@ -34,7 +34,7 @@ const Home = () => {
           rel="noopener noreferrer"
         >
           <Button className=" btn2 off" type="submit">
-            <Sfcont>SFSF Workshop Schedule 2022 🇺🇸</Sfcont>
+            <Sfcont>[SFSF] Workshop Schedule 🇺🇸</Sfcont>
           </Button>
         </form>
       </LandingBottons>
@@ -113,10 +113,10 @@ const Container = styled.main`
     border: none;
     height: 55px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 50px;
-    font-family: roboto;
-    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Nova Round';
 
   }
   }
