@@ -84,10 +84,10 @@ become a salsa dancer
 
 6 - Make a section videos section with Youtube videos of all choreos like Merecumbe, Acere Bongo, Vaso de Colores
 
-6 - This app also needs a section for Video Production 
-8 - A link to buy my course
-9 - I need to create a class logger, to keep track of how many classes we already had.
-10 - Add a section with Video Choreographies
+7 - This app also needs a section for Video Production 
+9 - A link to buy my course
+10 - I need to create a class logger, to keep track of how many classes we already had.
+11 - Add a section with Video Choreographies
 
 
 This project is under construction :)
