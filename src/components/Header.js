@@ -138,6 +138,9 @@ const Button = styled.button`
   height: 30px;
   color: white;
 
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nova Round";
+
   @media (max-width: 500px) {
     display: none;
   }
