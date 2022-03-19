@@ -72,7 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Official website for Colombia Salsa steps
 If you would like to contribute to this web app please send me an email (nelly@salsacolombia.net) to give you instructions on what we need help with.
 Thank you for checking SalsaColombia.net
-<<<<<<< HEAD
+
 Things to add to web app
 1 - Create a section where you can add foods you like
 and choose a random healthy food for the day
@@ -82,7 +82,14 @@ become a salsa dancer
 4 - Create a section for exercises only
 5 - I need to add Firebase Auth to keep track of students schedules
 
+6 - Make a section videos section with Youtube videos of all choreos like Merecumbe, Acere Bongo, Vaso de Colores
+
+6 - This app also needs a section for Video Production 
+8 - A link to buy my course
+9 - I need to create a class logger, to keep track of how many classes we already had.
+
+
 This project is under construction :)
-Expected launch day March 1!
+Expected launch day March 23rd!
 
 This web app is now on git hub!
