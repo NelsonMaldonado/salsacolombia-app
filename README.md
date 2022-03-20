@@ -91,6 +91,6 @@ become a salsa dancer
 
 
 This project is under construction :)
-Expected launch day March 23rd!
+Expected launch day April 1st!
 
 This web app is now on git hub!
