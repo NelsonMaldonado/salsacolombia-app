@@ -88,7 +88,7 @@ become a salsa dancer
 9 - A link to buy my course
 10 - I need to create a class logger, to keep track of how many classes we already had.
 11 - Add a section with Video Choreographies with price per hour at 100/hr
-
+12 - Work on the section that just pulls in facebook reels because that's generating revenue!
 
 This project is under construction :)
 Expected launch day April 1st!
